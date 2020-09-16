@@ -1,0 +1,46 @@
+/*** CSS for Awesome Table Gadget***/
+/* loader progress bar */
+.loader {
+        background-color:#000000;
+}
+
+/*** Configuration of FILTERS ***/
+
+/** Labels of filters **/
+.google-visualization-controls-label {
+        color:#000000;
+        font-weight: 500!important;
+        font-size:1em!important;
+        text-align: center
+}
+
+/** StringFilter **/
+.google-visualization-controls-stringfilter INPUT {
+        border:1px solid #d9d9d9!important;
+        color:#222;
+}
+.google-visualization-controls-stringfilter INPUT:hover {
+        border:1px solid #b9b9b9;
+        border-top:1px solid #a0a0a0;
+}
+.google-visualization-controls-stringfilter INPUT:focus {
+        border:1px solid #0045b8;
+}
+
+/* CategoryFilter & csvFilter hovered item in the dropdown */
+.charts-menuitem-highlight {
+        background-color:#c7c7c7!important;
+        border-color:#c7c7c7!important;
+        color:#FFF!important;
+}
+
+
+.google-visualization-table-tr-sel td, .google-visualization-table-tr-over td {
+        background-color:#c7c7c7!important;
+}
+
+.google-visualization-table-table .gradient, .google-visualization-table-div-page .gradient {
+        background: #0045b8 !important;
+        color: #FFFFFF!important;
+        font-size:2em!important;
+}"
