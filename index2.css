@@ -41,26 +41,29 @@
 
 /* CategoryFilter & csvFilter hovered item in the dropdown */
 .charts-menuitem-highlight {
-        background-color:gray   !important;
-        border-color:gray       !important;
+        background-color:orange  !important;
+        border-color:orange       !important;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-        color:gray      !important;
+        color:orange      !important;
 }
 
-
+/* This is the style for 2 things. Which event the user selects and which event the mouse is hovering over. */
 .google-visualization-table-tr-sel td, .google-visualization-table-tr-over td {
-        background-color:orange !important;
+        background-color:#c7c7c7!important;
 }
 
+/*  This styles the box and it's text, which sit directly on top of the list of events   (currently labeled "Events")   */
 .google-visualization-table-table .gradient, .google-visualization-table-div-page .gradient {
-        color: black    !important;
-        font-size:2em   !important;
+   /*     color: #FFFFFF!important;*/
+        font-size:2em!important;
         border-radius: 10px 10px 0px 0px;
-
+        background-color: blue; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to bottom right, blue, silver);
 }
+
 
 
 
