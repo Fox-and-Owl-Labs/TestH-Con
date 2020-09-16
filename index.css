@@ -1,0 +1,168 @@
+".container {
+width:100%;
+text-align: center;
+}
+
+
+body {
+font-family: 'Noto+Serif', sans-serif!important;
+}
+
+.google-visualization-table-table {
+font-family: 'Noto+Serif', sans-serif!important;
+}
+
+.photo {
+width:50px;
+height: 50px;
+float:left;
+margin:5px 10px 5px 5px!important;
+}
+
+.photo-container {
+ border-radius: 50%;
+overflow: hidden;
+width: 150px;
+height: 150px;
+margin: 0 auto;
+border: solid 4px white;
+margin:0 auto!important;
+}
+
+.event-name {
+color:#000000;
+margin-top:10px!important;
+font-weight:bold;
+}
+
+.about-container {
+ background-color: #f1f1f1;
+width:100%;
+text-align: center;
+padding-bottom: 5px;
+padding-top: 15px;
+
+}
+
+.gameType {
+margin-bottom: 0px!important;
+font-weight: initial;
+color: #000000;
+}
+
+.about-container2 {
+  background-color: #f1f1f1;
+width:100%;
+text-align: center;
+margin-top: 10px;
+}
+
+.timeType {
+margin-bottom: 0px!important;
+margin-top: 10px!important;
+font-weight: bold;
+color: #000000;
+}
+
+.name {
+margin-bottom: 0px!important;
+margin-top: 5px!important;
+font-weight: bold;
+color: #000000;
+font-size: 1.3em!important;
+}
+
+
+.description {
+margin-top: 0px!important;
+color: #000000;
+font-weight:bold;
+}
+
+.info-container {
+text-align: left;
+
+}
+
+.basic-info-container{
+padding: 4%;
+vertical-align: top;
+margin-top: 10px;
+}
+
+#sidebar {
+display:flex;
+}
+
+.button1 {
+        display: inline;
+        margin: auto;
+        float: center;
+        border-radius: 10px;
+        text-align:center;
+        font-weight: bold;
+        margin-bottom: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+}
+
+
+.button2 {
+        display: block;
+        border-radius: 10px;
+        width: 100%;
+        text-align:center;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 1px;
+        margin-bottom: 1px;
+}"
+
+
+"
+/*** CSS for Awesome Table Gadget***/
+/* loader progress bar */
+.loader {
+        background-color:#000000;
+}
+
+/*** Configuration of FILTERS ***/
+
+/** Labels of filters **/
+.google-visualization-controls-label {
+        color:#000000;
+        font-weight: 500!important;
+        font-size:1em!important;
+        text-align: center
+}
+
+/** StringFilter **/
+.google-visualization-controls-stringfilter INPUT {
+        border:1px solid #d9d9d9!important;
+        color:#222;
+}
+.google-visualization-controls-stringfilter INPUT:hover {
+        border:1px solid #b9b9b9;
+        border-top:1px solid #a0a0a0;
+}
+.google-visualization-controls-stringfilter INPUT:focus {
+        border:1px solid #0045b8;
+}
+
+/* CategoryFilter & csvFilter hovered item in the dropdown */
+.charts-menuitem-highlight {
+        background-color:#c7c7c7!important;
+        border-color:#c7c7c7!important;
+        color:#FFF!important;
+}
+
+
+.google-visualization-table-tr-sel td, .google-visualization-table-tr-over td {
+        background-color:#c7c7c7!important;
+}
+
+.google-visualization-table-table .gradient, .google-visualization-table-div-page .gradient {
+        background: #0045b8 !important;
+        color: #FFFFFF!important;
+        font-size:2em!important;
+}"
