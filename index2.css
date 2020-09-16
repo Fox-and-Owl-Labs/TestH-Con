@@ -1,38 +1,38 @@
 /*** CSS for Awesome Table Gadget***/
 /* loader progress bar */
 .loader {
-        background-color:#000000;
+        background-color:blue;
 }
 
 /*** Configuration of FILTERS ***/
 
 /** Labels of filters **/
 .google-visualization-controls-label {
-        color:#000000;
-        font-weight: 500!important;
-        font-size:1em!important;
+        color:green;
+        font-weight: 500        !important;
+        font-size:1em           !important;
         text-align: center
 }
 
 /** StringFilter **/
 .google-visualization-controls-stringfilter INPUT {
-        border:1px solid #d9d9d9!important;
-        color:#222;
+        border:1px solid pink   !important;
+        color:pink;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
 }
 .google-visualization-controls-stringfilter INPUT:hover {
-        border:1px solid #b9b9b9;
-        border-top:1px solid #a0a0a0;
+        border:1px solid purple;
+        border-top:1px solid purple;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
 }
 .google-visualization-controls-stringfilter INPUT:focus {
-        border:1px solid #0045b8;
+        border:1px solid yellow;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         border-top-left-radius: 10px;
@@ -41,24 +41,28 @@
 
 /* CategoryFilter & csvFilter hovered item in the dropdown */
 .charts-menuitem-highlight {
-        background-color:#c7c7c7!important;
-        border-color:#c7c7c7!important;
+        background-color:gray   !important;
+        border-color:gray       !important;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-        color:#FFF!important;
+        color:gray      !important;
 }
 
 
 .google-visualization-table-tr-sel td, .google-visualization-table-tr-over td {
-        background-color:#c7c7c7!important;
+        background-color:orange !important;
 }
 
 .google-visualization-table-table .gradient, .google-visualization-table-div-page .gradient {
-   /*     color: #FFFFFF!important;*/
-        font-size:2em!important;
+        color: black    !important;
+        font-size:2em   !important;
         border-radius: 10px 10px 0px 0px;
-        background-color: blue; /* For browsers that do not support gradients */
-        background-image: linear-gradient(to bottom right, blue, silver);
+
 }
+
+
+
+
+
