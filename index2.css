@@ -56,7 +56,7 @@
 }
 
 .google-visualization-table-table .gradient, .google-visualization-table-div-page .gradient {
-        color: #FFFFFF!important;
+   /*     color: #FFFFFF!important;*/
         font-size:2em!important;
         border-radius: 10px 10px 0px 0px;
         background-color: blue; /* For browsers that do not support gradients */
