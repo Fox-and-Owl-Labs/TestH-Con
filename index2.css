@@ -1,5 +1,5 @@
 /*** CSS for Awesome Table Gadget***/
-/* loader progress bar LIGHT BLUE*/
+/* loader progress bar TESTING LIGHT BLUE*/
 .loader {
         background-color:#00d9ff;
 }
@@ -14,7 +14,7 @@
         text-align: center
 }
 
-/** StringFilter PINK**/
+/** StringFilter TESTING PINK**/
 .google-visualization-controls-stringfilter INPUT {
         border:1px solid #ff00e6!important;
         color:#ff00e6;
@@ -24,7 +24,7 @@
         border-top-right-radius: 10px;
 }
 
-/*PURPLE*/
+/*TESTING PURPLE*/
 .google-visualization-controls-stringfilter INPUT:hover {
         border:1px solid #c300ff!important;
         border-top:1px solid #c300ff!important;
@@ -34,7 +34,7 @@
         border-top-right-radius: 10px;
 }
 
-/* YELLOW */
+/* TESTING YELLOW */
 .google-visualization-controls-stringfilter INPUT:focus {
         border:1px solid #ffe600!important;
         border-bottom-left-radius: 10px;
@@ -43,7 +43,7 @@
         border-top-right-radius: 10px;
 }
 
-/* CategoryFilter & csvFilter hovered item in the dropdown ORANGE */
+/* CategoryFilter & csvFilter hovered item in the dropdown TESTING ORANGE */
 .charts-menuitem-highlight {
         background-color:#ff9100!important;
         border-color:#ff9100!important;
