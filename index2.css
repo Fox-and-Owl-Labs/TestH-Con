@@ -57,6 +57,7 @@
 
 /*  This styles the box and it's text, which sit directly on top of the list of events   (currently labeled "Events")   */
 .google-visualization-table-table .gradient, .google-visualization-table-div-page .gradient {
+        background-color:#006eff!important;
         color: #000000!important;
         font-size:2em!important;
         border-radius: 10px 10px 0px 0px;
