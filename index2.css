@@ -6,11 +6,11 @@
 
 /*** Configuration of FILTERS ***/
 
-/** Labels of filters **/
+/** Text labels that appear either in or above the filter boxes. This is not the text that appear in the boxes that populate once filters have been selected by the user **/
 .google-visualization-controls-label {
-        color:black;
-        font-weight: 500        !important;
-        font-size:1em           !important;
+        color:#000000;
+        font-weight: 500!important;
+        font-size:1em!important;
         text-align: center
 }
 
