@@ -8,7 +8,7 @@
 
 /** Labels of filters **/
 .google-visualization-controls-label {
-        color:green;
+        color:black;
         font-weight: 500        !important;
         font-size:1em           !important;
         text-align: center
@@ -24,15 +24,15 @@
         border-top-right-radius: 10px;
 }
 .google-visualization-controls-stringfilter INPUT:hover {
-        border:1px solid purple;
-        border-top:1px solid purple;
+        border:1px solid purple !important;
+        border-top:1px solid purple !important;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
 }
 .google-visualization-controls-stringfilter INPUT:focus {
-        border:1px solid yellow;
+        border:1px solid yellow !important;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         border-top-left-radius: 10px;
@@ -57,8 +57,8 @@
 
 /*  This styles the box and it's text, which sit directly on top of the list of events   (currently labeled "Events")   */
 .google-visualization-table-table .gradient, .google-visualization-table-div-page .gradient {
-        color: #FFFFFF!important;
-        font-size:2em!important;
+        color: #FFFFFF !important;
+        font-size:2em  !important;
         border-radius: 10px 10px 0px 0px;
 
 }
