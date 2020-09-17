@@ -35,6 +35,13 @@ margin-top:10px!important;
 font-weight:bold;
 }
 
+/*This is for holding the event type, mostly just to change color */
+.event-type {
+  margin-top: 0px!important;
+  color: #0045b8;
+  font-weight:bold;
+  }
+
 .about-container {
  background-color: #f1f1f1;
 width:100%;
@@ -118,6 +125,3 @@ display:flex;
         margin-top: 1px;
         margin-bottom: 1px;
 }
-
-
-
